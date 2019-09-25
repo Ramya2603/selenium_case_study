@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27120" started-at="2019-09-23T09:09:44Z" finished-at="2019-09-23T09:10:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27120" started-at="2019-09-23T09:09:44Z" finished-at="2019-09-23T09:10:12Z">
+      <class name="testMeApp.onlineShopping">
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:testMeApp.onlineShopping@8f2ef19]" name="startReportBeforeTest" is-config="true" duration-ms="4289" started-at="2019-09-23T09:09:44Z" finished-at="2019-09-23T09:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:testMeApp.onlineShopping@8f2ef19]" name="testRegistration" duration-ms="11079" started-at="2019-09-23T09:09:49Z" finished-at="2019-09-23T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testMeApp.onlineShopping@8f2ef19]" name="getResultAfterMethod" is-config="true" duration-ms="1115" started-at="2019-09-23T09:10:00Z" finished-at="2019-09-23T09:10:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=onlineShopping.testRegistration()[pri:1, instance:testMeApp.onlineShopping@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:testMeApp.onlineShopping@8f2ef19]" name="testLogin" duration-ms="1160" started-at="2019-09-23T09:10:01Z" finished-at="2019-09-23T09:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testMeApp.onlineShopping@8f2ef19]" name="getResultAfterMethod" is-config="true" duration-ms="950" started-at="2019-09-23T09:10:02Z" finished-at="2019-09-23T09:10:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=onlineShopping.testLogin()[pri:2, instance:testMeApp.onlineShopping@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:testMeApp.onlineShopping@8f2ef19]" name="testCart" duration-ms="2566" started-at="2019-09-23T09:10:03Z" finished-at="2019-09-23T09:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testMeApp.onlineShopping@8f2ef19]" name="getResultAfterMethod" is-config="true" duration-ms="890" started-at="2019-09-23T09:10:06Z" finished-at="2019-09-23T09:10:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=onlineShopping.testCart()[pri:3, instance:testMeApp.onlineShopping@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:testMeApp.onlineShopping@8f2ef19]" name="testPayment" duration-ms="4099" started-at="2019-09-23T09:10:07Z" finished-at="2019-09-23T09:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testMeApp.onlineShopping@8f2ef19]" name="getResultAfterMethod" is-config="true" duration-ms="645" started-at="2019-09-23T09:10:11Z" finished-at="2019-09-23T09:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=onlineShopping.testPayment()[pri:4, instance:testMeApp.onlineShopping@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="endReportAfterTest()[pri:0, instance:testMeApp.onlineShopping@8f2ef19]" name="endReportAfterTest" is-config="true" duration-ms="281" started-at="2019-09-23T09:10:11Z" finished-at="2019-09-23T09:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportAfterTest -->
+      </class> <!-- testMeApp.onlineShopping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
